@@ -1,0 +1,30 @@
+# ── Credentials & tokens (NEVER commit) ──
+config.json
+client_secrets.json
+token.json
+readonly_token.json
+.env
+
+# ── Local state & database ──
+shorts.db
+publish_preview.json
+
+# ── Generated / large media ──
+output/
+music/
+rejected/
+logs/
+
+# ── Python runtime ──
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── OS / editor junk ──
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
